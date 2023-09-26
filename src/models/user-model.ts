@@ -34,7 +34,7 @@ export default abstract class UserModel{
 
     static async updateById(dataObj:any){
         const {id,name,email}= await dataObj
-        if(id== undefined)return {error:"The name parameter is missing"}
+        if(id== undefined)return {error:"The id parameter is missing"}
         const foundUserIndex= db.users.findIndex((user:any)=>user.id==id)
         if(foundUserIndex==-1)return {error:"ID doesn't exists in db"}
         const user=db.users[foundUserIndex]

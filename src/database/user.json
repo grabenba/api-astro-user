@@ -3,13 +3,23 @@
   "users": [
     {
       "id": "0ac7be2d-cddb-4558-a687-4d21b7be7e85",
-      "name": "Juan",
+      "name": "Juancito",
       "email": "juan@juan.com.ar"
     },
     {
       "id": "db559620-7c6b-4ff4-a7d9-fe0ed53d5f86",
       "name": "María",
       "email": "maria@maria.com.mx"
+    },
+    {
+      "id": "789c68f4-254f-46c9-aa6c-744c50feff3f",
+      "name": "Pedro",
+      "email": "pedro@pedro.com.ar"
+    },
+    {
+      "id": "e2130c20-0824-4462-b1af-a4bf99c6f278",
+      "name": "Pedrito",
+      "email": "pedro@pedro.com.ar"
     }
   ]
 }
